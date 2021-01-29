@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+</head>
+<body>
+    <h1>Fetch API - Getting JSON</h1>
+    <div id="output"></div>
+
+    <script>
+
+        fetch('users.json')
+        .then((res) => res.json())
+        .then(data => {
+            let output = '';
+            data.forEach(post => {
+            output += `
+                <div style='display: flex; justify-content:space-around;'>
+                    <p>${post.id}</p>
+                    <h3>${post.name}</h3>
+                    <p>${post.email}</p>
+                </div>
+            `;
+            });
+            document.getElementById('output').innerHTML = output;
+        });
+    </script>
+</body>
+</html>
