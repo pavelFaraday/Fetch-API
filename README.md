@@ -41,4 +41,4 @@ In other words, if you want to interact with a computer or system to retrieve in
 
 ![HTTP CREATE/POST Method](/slides/slide4.png)
 
-![HTTP REST Convention](/slides/slide4.png)
+![HTTP REST Convention](/slides/slide5.png)
