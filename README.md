@@ -32,6 +32,10 @@ When a client request is made via a RESTful API, it transfers a representation o
 
 > With REST API We expose our resources simple meaningful address & support various operations around them (GET, POST, PUT, DELETE) using standart HTTP Methods.
 
+![Web Services](/slides/web_services.png)
+
+![What is RESTfull API](/slides/RESTfull.png)
+
 #### HTTP Methods:
 
 -   GET
