@@ -36,3 +36,9 @@ In other words, if you want to interact with a computer or system to retrieve in
 ![HTTP GET Method](/slides/slide1.png)
 
 ![HTTP UPDATE/PUT Method](/slides/slide2.png)
+
+![HTTP DELETE Method](/slides/slide3.png)
+
+![HTTP CREATE/POST Method](/slides/slide4.png)
+
+![HTTP REST Convention](/slides/slide5.png)
