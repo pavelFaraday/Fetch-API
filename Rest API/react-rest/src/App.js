@@ -1,9 +1,10 @@
 import './App.css';
+import Postlist from "./API/Postlist";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Rest API - Upload initial files</h1>
+      <Postlist></Postlist>
     </div>
   );
 }
