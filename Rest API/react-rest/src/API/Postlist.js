@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-
-
 class Postlist extends Component {
-
     constructor(props){
         super(props);
         this.state = {
             posts: [],
-        }
-        
+        }  
     }
 
     componentDidMount() {
@@ -25,7 +21,7 @@ class Postlist extends Component {
 
     render() {
         const { posts } = this.state;
-
+        
         return (
             <div>          
                 <h1>Postlist Component</h1>
